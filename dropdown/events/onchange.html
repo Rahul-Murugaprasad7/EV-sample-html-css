@@ -1,0 +1,17 @@
+  <label>Select a color in Drop_Down:</label>
+  <body>
+  <select id="color-select">
+    <option value="red">Red</option>
+    <option value="yellow">yello</option>
+    <option value="green">Green</option>
+  </select>
+
+  <script>
+   document.getElementById("color-select").onchange = 
+function() {
+  var selectedColor = this.value
+  document.body.style.backgroundColor = selectedColor
+}
+
+  </script>
+</body>
